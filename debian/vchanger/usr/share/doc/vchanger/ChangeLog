@@ -1,0 +1,35 @@
+vchanger ChangeLog
+
+0.8.6  (2010-05-13)
+  - Use opendir instead of stat to trigger automounts
+  - Add ability to configure logging level
+  - Add extensive logging output to enhance debugging
+  - Maintain persistent magazine bay state to prevent magazines
+    in multi-magazine changers from inadvertently being moved
+    when a lower numbered bay has its magazine detached.
+0.8.5  (2010-02-05)
+  - Fix esfsprogs link errors on some Linux distros (bug 2941290)
+  - Merge "safe strncat" patch
+0.8.4  (2009-12-02)
+  - Ignore slot number passed to 'loaded' command (bug 2907225)
+  - Fix libblkid linking for FreeBSD (bug 2872006)
+0.8.3  (2009-10-27)
+  - Add specification of magazines by partition UUID
+  - Add LISTMAGS command to list magazines assigned to an autochanger
+  - Empty, rather than delete, loadedN files to prevent out of space
+    error on magazine partition
+  - Fix error parsing index files. (bug 2785183)
+  - Fixes for FreeBSD compatibility. (bug 2872006)
+0.8.2  [2009-04-14]
+  - Corrections to documentation
+0.8.1  [2009-01-27]
+  - Add extended command INITMAG for initializing new magazines
+  - Added command line flags to set uid and gid when run as root
+  - Force LOADED command to return zero when no slot is loaded
+  - Changed 99-by-label-fix.rules to work with centos5/el5
+  - Added stateN files to track the loaded state of each virtual
+    drive when last invoked
+  - Removed debug line inadvertently left in by_label_fix.sh
+  
+0.8.0  [2008-10-03]
+  - Initial Release

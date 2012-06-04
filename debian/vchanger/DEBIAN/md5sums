@@ -1,0 +1,17 @@
+b94d3b4aaf03ccc3834e95c9017b039f  usr/bin/vchanger
+cb2fbc62c67adb7829b819c51160060b  usr/share/doc/vchanger/99-by-label-fix.rules
+f3adbd392fcba0071881c49c27b33d48  usr/share/doc/vchanger/AUTHORS
+e5766aaa1be9b6dd27fd35d97e08cbb6  usr/share/doc/vchanger/COPYING.gz
+00009eb785e3016647fabac52dcfad5e  usr/share/doc/vchanger/ChangeLog
+bce77dbd29f22ad61dcdaed4369c3a98  usr/share/doc/vchanger/INSTALL
+a74fbe636a87843c365b773b61d576b0  usr/share/doc/vchanger/NEWS.gz
+edcc295d76a929200a7564ae28c1fe43  usr/share/doc/vchanger/README
+1312076e17e83e328e221277e8dc5a13  usr/share/doc/vchanger/README.Debian
+44d1a50cc0f6a215bec33e15850d1098  usr/share/doc/vchanger/README.by-label
+8e174afd99d885f3690de03851124d05  usr/share/doc/vchanger/ReleaseNotes.gz
+5a088d2df75a29a5db1fe5b42db807a8  usr/share/doc/vchanger/by_label_fix.sh
+0c13f253ec4ccf9dc490dc4e6bddbf18  usr/share/doc/vchanger/changelog.Debian.gz
+bed5fe4746346accd940f340d0a63325  usr/share/doc/vchanger/changelog.gz
+2739d92c76fca02362789736b577a9e8  usr/share/doc/vchanger/copyright
+45c6e53589bdfdfdbce1c7049411c642  usr/share/doc/vchanger/example.conf
+1b6061c7414badeaf367a5091daa6e2d  usr/share/doc/vchanger/vchangerHowto.html

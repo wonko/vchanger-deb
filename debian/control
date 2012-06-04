@@ -1,0 +1,18 @@
+Source: vchanger
+Section: admin
+Priority: extra
+Maintainer: Bernard Grymonpon <bernard@openminds.be>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, uuid-dev, libblkid-dev
+Standards-Version: 3.8.4
+Homepage: http://sourceforge.net/projects/vchanger/
+#Vcs-Git: git://git.debian.org/collab-maint/vchanger.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/vchanger.git;a=summary
+
+Package: vchanger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A disk drive virtual magazine emulator
+ Vchanger may be used with the Bacula Open Source network backup system to 
+ emulate a magazine-based tape autoloader using disk partitions on fixed or 
+ removable disk drives as virtual magazines and files on those partitions 
+ as virtual tape volumes.

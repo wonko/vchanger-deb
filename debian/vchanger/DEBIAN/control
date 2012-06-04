@@ -1,0 +1,14 @@
+Package: vchanger
+Version: 0.8.6-1
+Architecture: amd64
+Maintainer: Bernard Grymonpon <bernard@openminds.be>
+Installed-Size: 248
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libuuid1 (>= 2.16)
+Section: admin
+Priority: extra
+Homepage: http://sourceforge.net/projects/vchanger/
+Description: A disk drive virtual magazine emulator
+ Vchanger may be used with the Bacula Open Source network backup system to
+ emulate a magazine-based tape autoloader using disk partitions on fixed or
+ removable disk drives as virtual magazines and files on those partitions
+ as virtual tape volumes.

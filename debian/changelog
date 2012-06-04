@@ -1,0 +1,5 @@
+vchanger (0.8.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Bernard Grymonpon <bernard@openminds.be>  Mon, 04 Jun 2012 20:23:02 +0200
